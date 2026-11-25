@@ -1,11 +1,11 @@
 class Lazycmd < Formula
   desc "Lazygit-style terminal UI for running your scripts and project commands"
   homepage "https://github.com/nuan-grobbelaar/lazycmd"
-  url "git@github.com:nuan-grobbelaar/lazycmd.git",
+  url "https://github.com/nuan-grobbelaar/lazycmd.git",
       using:    :git,
       tag:      "v0.1.0",
       revision: "a86bbc819ae1b77cb4a145c576240ed52f56493c"
-  head "git@github.com:nuan-grobbelaar/lazycmd.git", branch: "main"
+  head "https://github.com/nuan-grobbelaar/lazycmd.git", branch: "main"
 
   depends_on "go" => :build
 
