@@ -3,8 +3,8 @@ class Lazycmd < Formula
   homepage "https://github.com/nuan-grobbelaar/lazycmd"
   url "https://github.com/nuan-grobbelaar/lazycmd.git",
       using:    :git,
-      tag:      "v0.1.5",
-      revision: "2b8dd74aa2455ae65f0f2d07d19233a258c1a848"
+      tag:      "v0.2.0",
+      revision: "da23c22c25193a15d369b5ee6a41dace256bc0c0"
   head "https://github.com/nuan-grobbelaar/lazycmd.git", branch: "main"
 
   depends_on "go" => :build
